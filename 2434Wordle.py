@@ -20,8 +20,6 @@ data = file.readlines()
 
 rand = round(nbop*rd.random())
 
-print(data[rand])
-
 ln_d = len(data[rand])
 
 wndw = tk.Tk()
